@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="colorstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Virtual University</title>
+
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+    </style>
+</head>
+
+<body>
+    <div class="sub-header">
+        <section>
+            <nav>
+                <img src="Images/logo.png">
+                <div class="nav-links" id="nav-links">
+                    <ul>
+                      <li>
+                        <li> <a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="courses.html">COURSE</a></li>
+                        <li><a href="#campus">CAMPUSES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        </li>
+                    </ul>
+                </div>
+                <button class="hamburger" onclick="menufunc()"><i class='bx bx-menu-alt-right'></i></button>
+            </nav>
+          <h1>Contact Us</h1>
+        </section>
+    </div>
+
+
+          <!-------Contact------>
+          <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.399581626981!2d-122.17263492486548!
+            3d37.42766423208024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2a678bea9d%3A0x29cdf01a44fc687f
+            !2sStanford%20University!5e0!3m2!1sen!2s!4v1704202687855!5m2!1sen!2s" width="600" height="450" style="border:0;" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </section>
+
+          <section class="contact-us">
+            <div class="row">
+              <div class="contact-col">
+                <div>
+                  <a href="#" class="fa fa-home"></a>
+                  <span>
+                    <h5>1st Avenue,Main Steet</h5> 
+                    <p>Seattle,USA</p>
+                  </span>
+                </div>
+                <div>
+                  <a href="#" class="fa fa-phone"></a>
+                  <span>
+                    <h5>+1 123456789</h5> 
+                    <p>Monday to Saturday,10AM to 6PM</p>
+                  </span>
+                </div>
+                <div>
+                  <a href="#" class="fa fa-envelope-o"></a>
+                  <span>
+                    <h5>info@eduford.com</h5> 
+                    <p>Email us your query</p>
+                  </span>
+                </div>
+              </div>
+              <div class="contact-col">
+                <form action="">
+                  <input type="text" placeholder="Enter Your Name:" required>
+                  <input type="email" placeholder="Enter Your Email Address:" required>
+                  <input type="text" placeholder="Enter Your Course:" required>
+                  <textarea name="" id="" cols="30" rows="8" placeholder="Message"></textarea>
+                  <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+              </div>
+
+            </div>
+
+          </section>
+
+
+            
+
+          <!-------Footer------>
+          <section class="footer">
+            <h4>About Us</h4>
+            <p>
+              Our virtual university, steeped in a legacy of academic excellence, boasts a faculty of esteemed experts guiding our innovative learning environment. Accredited and esteemed, we prioritize cutting-edge education, blending tradition with technology to offer a dynamic, accessible, and quality-driven experience. Led by visionary leadership, our institution nurtures a collaborative, inclusive space fostering academic brilliance. Through our virtual platform, we champion flexibility, interactivity, and personalized learning, empowering students to excel in an ever-evolving landscape. Join our thriving community and discover a virtual education that transcends boundaries, enriching minds and shaping futures.
+            </p>
+            <div class="icon">
+                <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+        </div>
+        <p>Made by Noor Muhammad(231698) and Talha Tariq(231542)</p>
+          </section>
+
+    <!------Javascript for menu-->
+    <script>
+        var navLinks = document.querySelector(".nav-links");
+        function menufunc() {
+            navLinks.classList.toggle("link-open");
+        }
+    </script>
+</body>
+
+</html>

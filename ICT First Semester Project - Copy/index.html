@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="colorstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Virtual University</title>
+
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <section>
+            <nav>
+                <img src="Images/logo.png">
+                <div class="nav-links" id="nav-links">
+                    <ul>
+                        <li>
+                        <li> <a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="courses.html">COURSE</a></li>
+                        <li><a href="#campus">CAMPUSES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        </li>
+                    </ul>
+                </div>
+                <button class="hamburger" onclick="menufunc()"><i class='bx bx-menu-alt-right'></i></button>
+            </nav>
+            <div class="text-box" id="home">
+                <h1>World's Biggest University</h1>
+                <p>
+                    Making website is one of the easiest thing in the world.You need to learn HTML, CSS<br> Javascript
+                    and you are good to go.
+                </p>
+                <br>
+                <a href="" class="hero-btn">Visit Us to know More</a>
+
+            </div>
+        </section>
+    </div>
+
+    <!-------Course------->
+    <section class="course" id="course">
+        <h1>Courses We Offer</h1>
+        <p>
+            Introduction to Programming,Website Development,Data Structures and Algorithms.
+        </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>
+                    Introduction to Programming <br>
+                    Building on basics, this course delves deeper into programming paradigms, data types, and problem-solving techniques using languages like Python, Java, or C++.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>
+                    Foundations of Web Development <br>
+                    Explores front-end and back-end technologies, HTML/CSS, JavaScript, server-side scripting, and frameworks to build dynamic websites.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>
+                    Advanced Data Structures and Algorithms <br>
+                    Covers complex data structures, algorithm design paradigms, analysis of algorithms, and their implementation in solving real-world problems.
+                </p>
+            </div>
+        </div>
+
+
+    </section>
+    <!------Campuses------>
+    <section class="campus" id="campus">
+        <div class="campus-intro">
+            <h1>Our Global Campuses</h1>
+            <p>Campuses located in various parts of World</p>
+        </div>
+        <div class="row">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                    <div class="img-container">
+                        <img src="Images/london.png">
+                    </div>
+                </div>
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                    <div class="img-container">
+                    <img src="Images/newyork.png">
+                </div>
+                </div>
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                    <div class="img-container">
+                    <img src="Images/washington.png">
+                </div>
+                </div>
+        </div>
+    </section>
+
+
+     <!-------Facilities----->
+     <section class="facilities">
+        <h1>Our facilities</h1>
+    <p>We are providing online learning ecosystem with virtual classrooms, digital libraries, interactive tools, student support services, and career resources, fostering a dynamic and inclusive educational experience accessible from anywhere.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="Images/Library.webp">
+            <h3>World Class Library</h3>
+            <p>Library is an extensive digital repository housing a vast collection of e-books, journals, research papers, and academic resources accessible to all students and faculty.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/basketball.jpg">
+            <h3>Big Playground</h3>
+            <p>University provides a simulated playground within its online platform, offering interactive spaces for students to engage in recreational activities.</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="Images/Cafe.jpg" alt="">
+            <h3>Good and Healthy Food</h3>
+            <p>University setting, good and healthy food typically refers to nourishing options available within the institution's resources or recommendations for students.</p>
+        </div>
+
+    </div>
+    </section>
+
+     <!-------Testimonials------>
+     <section class="testimonials">
+        <h1>What Our Students Say</h1>
+        <div class="rows">
+            <div class="testimonials-col">
+                <img src="Images/user1.jpg" alt="">
+                <div>
+                    <p>
+                        The virtual university's online platform offers incredible flexibility, allowing me to balance my studies with work and personal commitments. The professors are responsive and supportive, making the virtual learning experience engaging and rewarding.
+                    </p>
+                    <h3>Muhammad Hamza</h3>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="Images/user2.jpg" alt="">
+                <div>
+                    <p>
+                        The library's digital resources are fantastic, offering a wide range of materials. However, occasional technical issues with the online platform can be frustrating. Improved tech support would enhance the overall experience.
+                    </p>
+                    <h3>Thomas Shleby</h3>
+                </div>
+            </div>
+        </div>
+     </section>
+
+          <!-------Call to action------>
+          <section class="cta">
+            <h1>Enroll From Anywhere In The World</h1>
+            <a href="" class="hero-btn">Contact Us</a>
+          </section>
+
+
+
+          <!-------Footer------>
+          <section class="footer">
+            <h4>About Us</h4>
+            <p>
+                Our university, steeped in a legacy of academic excellence, boasts a faculty of esteemed experts guiding our innovative learning environment. Accredited and esteemed, we prioritize cutting-edge education, blending tradition with technology to offer a dynamic, accessible, and quality-driven experience. Led by visionary leadership, our institution nurtures a collaborative, inclusive space fostering academic brilliance. Through our virtual platform, we champion flexibility, interactivity, and personalized learning, empowering students to excel in an ever-evolving landscape. Join our thriving community and discover a virtual education that transcends boundaries, enriching minds and shaping futures.
+            </p>
+            <div class="icon">
+                <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+        </div>
+        <p>Made by Noor Muhammad(231698) and Talha Tariq(231542)</p>
+          </section>
+
+    <!------Javascript for menu-->
+    <script>
+        var navLinks = document.querySelector(".nav-links");
+        function menufunc() {
+            navLinks.classList.toggle("link-open");
+        }
+    </script>
+</body>
+
+</html>
